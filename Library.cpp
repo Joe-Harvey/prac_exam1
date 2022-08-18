@@ -6,15 +6,15 @@ Library :: Library(){
 
 }
 
-void Library :: addDocument(Document newdoc){
+void Library :: addDocument(Document * newdoc){
     int s = docs.size();
     docs.resize(s + 1);
     docs.at(s + 1) = newdoc;
 }
 
-bool Library :: hasDocument(Document doc){
+bool Library :: hasDocument(Document * doc){
 
-    int id = getDocumentID(doc);
+    int id = doc->getDocumentID();
     int s = docs.size();
 
     bool ans = false;
