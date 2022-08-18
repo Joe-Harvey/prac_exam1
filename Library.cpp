@@ -21,7 +21,7 @@ bool Library :: hasDocument(Document * doc){
     bool ans = false;
 
     for (int i = 0; i < s; i++){
-        if (id == docs.at(i)){
+        if (id == docs.at(i)->getDocumentID()){
             ans = true;
         }
     }

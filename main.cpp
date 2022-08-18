@@ -2,6 +2,8 @@
 #include "Document.h"
 #include "Book.h"
 
+#include <iostream>
+
 int main(){
     Library lib;
 
