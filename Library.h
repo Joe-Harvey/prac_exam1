@@ -1,12 +1,13 @@
-#ifndef LIBRARAY_H
+#ifndef LIBRARY_H
 #define LIBRARY_H
-#include <vector>
 #include "Document.h"
+
+#include <vector>
 
 class Library {
 
     private:
-    std :: vector<Document *, 0> docs;
+    std :: vector<Document *> docs;
 
     public:
     Library();

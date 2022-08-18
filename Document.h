@@ -3,7 +3,7 @@
 
 class Document {
 
-    private:
+    protected:
     int DocumentID;
 
     protected:

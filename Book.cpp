@@ -1,9 +1,9 @@
 #include "Book.h"
 
 Book :: Book(int id){
-    ID = id;
+    DocumentID = id;
 }
 
-Book :: int getDocumentID(){
-    return ID
+int :: Book :: getDocumentID(){
+    return DocumentID;
 }
