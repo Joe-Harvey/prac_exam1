@@ -2,7 +2,7 @@
 #include "Document.h"
 #include "Book.h"
 
-int main{
+int main(){
     Library lib;
 
     Book * p_my_book = new Book(0);
