@@ -1,5 +1,5 @@
-#ifndef Document_H
-#define Document_H
+#ifndef DOCUMENT_H
+#define DOCUMENT_H
 
 class Document {
 
