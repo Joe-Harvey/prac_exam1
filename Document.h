@@ -6,7 +6,7 @@ class Document {
     protected:
     int DocumentID;
 
-    protected:
+    public:
     virtual int getDocumentID() = 0;
 };
 
